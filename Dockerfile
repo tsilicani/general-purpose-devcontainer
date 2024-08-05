@@ -1,4 +1,4 @@
-FROM python:3.12-bookworm
+FROM ubuntu:22.04
 
 # Avoid prompts from apt and set locale environment variables
 ENV DEBIAN_FRONTEND=noninteractive \
